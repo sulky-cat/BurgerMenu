@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="../src/burger-menu.css">
+   <link rel="stylesheet" href="style.css">
+   <title>Burger</title>
+</head>
+
+<body>
+   <div>
+      <h1 class="title">Примеры</h1>
+
+      <section id="ex_1" class="section">
+         <h2 class="section__title">Обычное поведение</h2>
+         <button class="burger-btn" type="button"><span></span></button>
+      </section>
+
+      <section id="ex_2" class="section">
+         <h2 class="section__title">Открытие и закрытие на другие кнопки</h2>
+         <button class="btn open" type="button">Открыть</button>
+         <button class="btn close" type="button">Закрыть</button>
+      </section>
+
+      <section id="ex_3" class="section">
+         <h2 class="section__title">init(), destroy()</h2>
+         <div class="text">
+            <p>destroy() не влияет на вызов методов. Пример 2 будет работать.</p>
+         </div>
+         <button class="btn init" type="button">init()</button>
+         <button class="btn destroy" type="button">destroy()</button>
+      </section>
+
+      <section id="ex_3" class="section">
+         <h2 class="section__title">События (в консоли).</h2>
+      </section>
+
+
+      <div data-burger>
+         Бургер-меню!
+      </div>
+
+   </div>
+   <script type="module" src="script.js"></script>
+</body>
+
+</html>
