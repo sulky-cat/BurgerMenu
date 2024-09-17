@@ -26,7 +26,7 @@
 Подключение скриптов без модульности:
 ```html
 <script src="BodyLock.js"></script>
-<script src="Popup.js"></script>
+<script src="BurgerMenu.js"></script>
 ```
 Подключение с модулями (import уже написан в файлах):
 *HTML*
