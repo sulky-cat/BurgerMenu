@@ -1,6 +1,6 @@
 # BurgerMenu
 
-[Демо страница](https://sulky-cat.github.io/BurgerMenu/demo)
+[Демо страница](https://sulky-cat.github.io/BurgerMenu_f/demo)
 
 ## Содержание
 - [Описание](#описание)
